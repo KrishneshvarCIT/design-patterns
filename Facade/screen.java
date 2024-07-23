@@ -1,6 +1,5 @@
 
 package Facade;
-// Facade - class for Screen
 
 public class screen {
     public void down() {
@@ -11,4 +10,3 @@ public class screen {
         System.out.println("Screen is up");
     }
 }
-
