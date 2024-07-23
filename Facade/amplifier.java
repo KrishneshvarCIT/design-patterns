@@ -1,8 +1,6 @@
 
 package Facade;
 
-// Facade - class for Amplifier
-
 public class amplifier {
     public void on() {
         System.out.println("Amplifier is on");
@@ -16,4 +14,3 @@ public class amplifier {
         System.out.println("Amplifier is off");
     }
 }
-
