@@ -1,6 +1,5 @@
 
 package Facade;
-// Facade - class for DVD Player
 
 public class dvdplayer {
     public void on() {
@@ -8,7 +7,7 @@ public class dvdplayer {
     }
 
     public void play(String movie) {
-        System.out.println("Playing movie: " + movie);
+        System.out.println("\nPlaying movie: " + movie + "\n");
     }
 
     public void stop() {
@@ -19,4 +18,3 @@ public class dvdplayer {
         System.out.println("DVD Player is off");
     }
 }
-
