@@ -1,14 +1,6 @@
 
 package Facade;
 
-import Facade.dvdplayer;
-import Facade.amplifier;
-import Facade.hometheater;
-import Facade.projector;
-import Facade.screen;
-
-// Facade design pattern main class
-
 public class facadedp {
     public static void main(String[] args) {
         // Create instances of subsystem components
@@ -25,4 +17,3 @@ public class facadedp {
         homeTheater.endMovie();
     }
 }
-
