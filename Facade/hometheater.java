@@ -1,6 +1,5 @@
 
 package Facade;
-// Facade - class for hometheatre
 
 public class hometheater {
     private dvdplayer dvdPlayer;
@@ -19,7 +18,6 @@ public class hometheater {
         System.out.println("Get ready to watch a movie...");
         screen.down();
         projector.on();
-        projector.wideScreenMode();
         amplifier.on();
         amplifier.setVolume(5);
         dvdPlayer.on();
@@ -35,4 +33,3 @@ public class hometheater {
         screen.up();
     }
 }
-
