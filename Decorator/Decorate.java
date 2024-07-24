@@ -5,7 +5,7 @@ public class Decorate {
         Notifier notifier = new EmailNotifier();
         notifier.send("Print out this document");
 
-        notifier = new SMSDecorator();
+        notifier = new SMSNotifier();
         notifier.send("Rs.100 Debited from your bank acount.");
 
         notifier = new InstagramReels();
