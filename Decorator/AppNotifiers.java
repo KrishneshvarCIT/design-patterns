@@ -7,7 +7,7 @@ class EmailNotifier implements Notifier {
     }
 }
 
-class SMSDecorator implements Notifier {
+class SMSNotifier implements Notifier {
     @Override
     public void send(String message) {
         System.out.println("\nSMS Received:\n" + message);
